@@ -6,10 +6,12 @@ func main() {
 	//hand.print()
 	//remainingDeck.print()
 
-	//	cards := newDeck()
+	cards := newDeck()
 	//	cards.saveToFile("thirdTry")
 
-	cards := newDeckFromFile("firstTry")
+	// cards := newDeckFromFile("firstTry")
+	// cards.print()
+	cards.shuffle()
 	cards.print()
 
 }
